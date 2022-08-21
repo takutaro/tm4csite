@@ -1,24 +1,28 @@
 <!doctype html>
 <html>
-  <head>
-    <title>TEST OF AMZN CNCT CHAT</title>
-  </head>
-  <body>
-    公開されたWEBサイトにチャットボタンを配置(右下)<br>
 
-<script type="text/javascript">
-  (function(w, d, x, id){
-    s=d.createElement('script');
-    s.src='https://d2ct74a929wa9a.cloudfront.net/amazon-connect-chat-interface-client.js';
-    s.async=1;
-    s.id=id;
-    d.getElementsByTagName('head')[0].appendChild(s);
-    w[x] =  w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
-  })(window, document, 'amazon_connect', 'b2c50ef1-d6e9-43e0-aab7-4b6f66494f1b');
-  amazon_connect('styles', { openChat: { color: 'white', backgroundColor: '#123456'}, closeChat: { color: 'white', backgroundColor: '#123456'} });
-  amazon_connect('snippetId', 'QVFJREFIZ2hQL0pvd1JoM1RkT2R1L3NXL3lNdml6dmxkWnl0QVhSZkNxL24zazB4MUFIOGxGcStXeUp1S1lPMGgzWGkxWE9UQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNVlBsY2dtaGVTaHg4WHFGSUFnRVFnQ3ZZMHlzejFhQ1ZuVFJocjlFZWMxN2xmcDJ1aTBidFhrU3prYjZKQndVakgwTzIxVnArRVhsczkzeEU6OnpoZTNxTk5ONXZGaHQ2NWpMQVBlZGlaamZLWWZXSjJXaEdyUjBsSnZqWDlaNDFNRGVtUHlLRjcxYjVkMDFtQTNWdnlkL1NmOEVsQmc5U3Jzcjg0YlZhMFIrZUwrczg5bUVUdDVZUHRDbkJseG9sd3ZBb1JkNFRSZWp2c0pTVWpGU2djQU0yMnZoeXBmTmswK1hnOU5ZTklPcGRnWC9MOD0=');
-  amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown' ]);
-</script>
+<head>
+  <meta charset="UTF-8" http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <title>TEST OF AMZN CNCT CHAT</title>
+</head>
 
-  </body>
+<body>
+  公開されたWEBサイトにチャットボタンを配置(右下)<br>
+
+  <script type="text/javascript">
+    (function (w, d, x, id) {
+      s = d.createElement('script');
+      s.src = 'https://d2ct74a929wa9a.cloudfront.net/amazon-connect-chat-interface-client.js';
+      s.async = 1;
+      s.id = id;
+      d.getElementsByTagName('head')[0].appendChild(s);
+      w[x] = w[x] || function () { (w[x].ac = w[x].ac || []).push(arguments) };
+    })(window, document, 'amazon_connect', 'b2c50ef1-d6e9-43e0-aab7-4b6f66494f1b');
+    amazon_connect('styles', { openChat: { color: 'white', backgroundColor: '#123456' }, closeChat: { color: 'white', backgroundColor: '#123456' } });
+    amazon_connect('snippetId', 'QVFJREFIZ2hQL0pvd1JoM1RkT2R1L3NXL3lNdml6dmxkWnl0QVhSZkNxL24zazB4MUFIOGxGcStXeUp1S1lPMGgzWGkxWE9UQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNVlBsY2dtaGVTaHg4WHFGSUFnRVFnQ3ZZMHlzejFhQ1ZuVFJocjlFZWMxN2xmcDJ1aTBidFhrU3prYjZKQndVakgwTzIxVnArRVhsczkzeEU6OnpoZTNxTk5ONXZGaHQ2NWpMQVBlZGlaamZLWWZXSjJXaEdyUjBsSnZqWDlaNDFNRGVtUHlLRjcxYjVkMDFtQTNWdnlkL1NmOEVsQmc5U3Jzcjg0YlZhMFIrZUwrczg5bUVUdDVZUHRDbkJseG9sd3ZBb1JkNFRSZWp2c0pTVWpGU2djQU0yMnZoeXBmTmswK1hnOU5ZTklPcGRnWC9MOD0=');
+    amazon_connect('supportedMessagingContentTypes', ['text/plain', 'text/markdown']);
+  </script>
+
+</body>
+
 </html>
